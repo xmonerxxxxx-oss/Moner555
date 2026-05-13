@@ -24,7 +24,7 @@ st.markdown("""
 # ============================================================
 # 2. إعداد الـ API
 # ============================================================
-API_KEY = "AIzaSyDG25_wPXKZcokspZdv6BhwjURbby8ta1Y"
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 @st.cache_resource
 def get_model():
