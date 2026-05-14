@@ -32,7 +32,7 @@ except Exception:
 
 def get_model():
     genai.configure(api_key=API_KEY)
-    return genai.GenerativeModel("gemini-2.5-flash-preview-04-17")
+    return genai.GenerativeModel("gemini-2.5-flash")
 
 MAX_FILE_BYTES = 20 * 1024 * 1024
 
